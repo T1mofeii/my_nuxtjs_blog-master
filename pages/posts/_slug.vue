@@ -21,6 +21,7 @@
           <img class="img-fluid rounded " :src="post.image" alt="">
           <hr>
           <span v-html="post.content"></span>
+          <div class="price-product">ЦЕНА: 1200 руб.</div>
           <div class="d-flex justify-content-end">
             <span v-for="tag in post.tags">
                   <nuxt-link :to="`/tags/${tag}`" class="mr-1 badge badge-info">#{{ tag }}</nuxt-link>

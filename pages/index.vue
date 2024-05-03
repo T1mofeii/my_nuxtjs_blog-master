@@ -15,7 +15,7 @@
               </div>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <nuxt-link :to="`/posts/${post.slug}`" class="btn btn-sm btn-outline-secondary">Подробнее</nuxt-link>
+                  <nuxt-link :to="`/posts/${post.slug}`" class="btn btn-sm btn-outline-secondary">Купить</nuxt-link>
                 </div>
                 <small class="text-muted">{{ post.created_at }}</small>
               </div>
